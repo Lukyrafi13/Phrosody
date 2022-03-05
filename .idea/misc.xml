@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/drawable/rounded_button.xml" value="0.18311688311688312" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/drawable/rounded_image_button.xml" value="0.18552631578947368" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp-v26/activity_tentang_aplikasi.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_affect_input.xml" value="0.15" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_affect_output.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_chunking_input.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_chunking_output.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_focus_input.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_focus_output.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_hasil_nilai.xml" value="0.14963054187192118" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_long_item_auditory_discrimination.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_long_item_imitation.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_menuutama.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_mulai.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_quiz_turn_end_output.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_short_item_auditory_discrimination.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_short_item_discrimination.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_short_item_imitation.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu.xml" value="0.12" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_affect.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_auditory_discrimination.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_chunking.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_focus.xml" value="0.149609375" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_form.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_function.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_imitation.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_pilihan.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_sub_menu_turn_end.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_tentang_aplikasi.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_turn_end.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout-sw600dp/activity_turn_end_mulai.xml" value="0.153125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_affect_input.xml" value="0.142578125" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_affect_output.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_chunking_input.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_chunking_output.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_focus_input.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_focus_output.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_long_item_auditory_discrimination.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_long_item_imitation.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_mulai.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_mulai_affect_input.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_quiz_turn_end_output.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_short_item_auditory_discrimination.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_short_item_discrimination.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_short_item_imitation.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_affect.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_auditory_discrimination.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_chunking.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_focus.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_imitation.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_pilihan.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_sub_menu_turn_end.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_tentang_aplikasi.xml" value="0.3068181818181818" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_turn_end.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/activity_turn_end_output_mulai.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/LENOVO/Android_Studio_Projects/Project APP/Phrosidy/app/src/main/res/layout/item_list_review_soal.xml" value="0.17192982456140352" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

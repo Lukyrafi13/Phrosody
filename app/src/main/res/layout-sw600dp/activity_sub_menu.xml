@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SubMenu">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/judul"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/indver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/indonesia"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/erasbold_itc"
+        android:padding="30dp"
+        android:text="FORM"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnForm"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="150dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/erasbold_itc"
+        android:padding="30dp"
+        android:text="FUNCTION"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnHapusNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/erasbold_itc"
+        android:padding="30dp"
+        android:text="Hapus Nama"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>

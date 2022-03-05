@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:padding="20dp"
+    tools:context=".Function.Chunking.Activity_Chunking_Input">
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="Chunking"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="Reseptif"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/soal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul2"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:gravity="center_horizontal"
+        android:text="Soal"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <ImageButton
+        android:id="@+id/gambar_sound"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/soal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_image_button"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gambar_sound" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar_sound"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/JawabanKiri"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/rounded_image_button"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dasi_merah" />
+
+            <ImageButton
+                android:id="@+id/JawabanKanan"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded_image_button"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dasi_biru" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+</RelativeLayout>

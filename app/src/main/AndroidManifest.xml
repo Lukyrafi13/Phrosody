@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="Prosody"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".Tentang_Aplikasi_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Chunking.Activity_SubMenu_Chunking"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_SubMenu_Pilihan"
+            android:exported="true" />
+        <activity
+            android:name=".Form.Imitation.Activity_Long_Item_Imitation"
+            android:exported="true" />
+        <activity
+            android:name=".Form.Auditory_Discrimination.Activity_SubMenu_Auditory_Discrimination"
+            android:exported="true" />
+        <activity
+            android:name=".Form.Auditory_Discrimination.Activity_Long_Item_Auditory_Discrimination"
+            android:exported="true" />
+        <activity
+            android:name=".Form.Auditory_Discrimination.Activity_Short_Item_Auditory_Discrimination"
+            android:exported="true" />
+        <activity
+            android:name=".Form.Imitation.Activity_SubMenu_Imitation"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Focus.Activity_SubMenu_Focus"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Focus.Activity_Focus_Output"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Focus.Activity_Focus_Input"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Chunking.Activity_Chunking_Output"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Chunking.Activity_Chunking_Input"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Affect.Activity_Affect_Output"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Affect.Activity_Affect_Input"
+            android:exported="true" />
+        <activity
+            android:name=".Function.Affect.SubMenu_Affect"
+            android:exported="true" />
+        <activity android:name=".Form.SubMenuFormActivity" />
+        <activity android:name=".Form.Imitation.ShortItemImitationActivity" />
+        <activity android:name=".Form.ShortItem.ShortItemDiscriminationActivity" />
+        <activity android:name=".Function.TurnEnd.SubMenuTurnEndActivity" />
+        <activity android:name=".MulaiActivity" />
+        <activity android:name=".Function.TurnEnd.QuizTurnEndOutputActivity" />
+        <activity android:name=".HasilNilaiActivity" />
+        <activity android:name=".Function.TurnEnd.QuizTurnEndInput" />
+        <activity android:name=".Function.SubMenu_Function" />
+        <activity android:name=".SubMenu" />
+        <activity android:name=".menuutama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="judul">Profiling Element of \nProsody In Speech Communication (PEPS-C)</string>
+    <string name="indonesia">Versi Indonesia</string>
+    <string name="watermark">Fani 2021</string>
+    <string name="reseptif">Reseptif</string>
+    <string name="ekspresif">Ekspresif</string>
+    <string name="tentang">
+    <i>PEPS-C (Profiling Elements of Prosody in Speech Communication)</i> versi Indonesia merupakan tes yang diadaptasi dari <i>PEPS-C 2015</i> oleh Sue Peppe untuk mengukur kemampuan prosodi reseptif dan ekspresif pada populasi dewasa dan anak-anak pada dua level yang berbeda yaitu, formal dan fungsional. Pada versi Indonesia tes ini dibuat berbasis aplikasi  dengan tujuan penelitian skripsi oleh Fani Hanifah.<br></br><br></br>
+
+    <b>Apa itu Prosodi?</b><br></br><br></br>
+
+    Prosodi merupakan variasi nada, intensitas, jeda, penekanan dan ritme bicara. Prosodi memegang peranan penting dalam menyampai makna bahasa. Dimana <i>‘chunking’</i> dan <i>‘intonation’</i> berpengaruh terhadap makna bahasa lisan, dimana kata-kata dalam suatu ujaran dikelompokan. <i>‘Stress’</i> menunjukan fokus dari pembicara dalam suatu percakapan.<i>‘Intonation’</i> dan <i>‘tone’</i> menunjukan sikap dan emosi pembicara terhadap apa yang mereka katakan.<br></br><br></br>
+
+    Gangguan prosodi sering kali ditemukan pada populasi dengan <i>Autism Spectrum Disorder, disartria, down syndrome, William syndrome, Parkinson disease dan hearing impairment.</i><br></br><br></br><br></br>
+        <b>Aplikasi : </b>                    <br></br>PEPS-C versi Indonesia <br></br><br></br>
+        <b>Adaptasi , desain gambar : </b>    <br></br>Fani Hanifah<br></br>(ig: @hnffanii)<br></br>(Email: fanihnf.tw13@gmail.com)<br></br><br></br>
+        <b>Aplikasi desain : </b>             <br></br>Luky Rafi Anuggilarso<br></br>(ig: @luckyrafi13)<br></br>(Email: luckyrafi13@gmail.com)<br></br><br></br>
+        <b>Tahun : </b>                       <br></br>2021<br></br><br></br>
+
+    </string>
+</resources>

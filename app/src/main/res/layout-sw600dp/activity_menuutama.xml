@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".menuutama">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/judul"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/indver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/indonesia"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/erasbold_itc"
+        android:padding="30dp"
+        android:text="Mulai"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnTentangAplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/erasbold_itc"
+        android:padding="30dp"
+        android:text="Tentang Aplikasi"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:id="@+id/watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>
