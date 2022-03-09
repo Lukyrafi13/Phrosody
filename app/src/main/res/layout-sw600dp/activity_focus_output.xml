@@ -28,11 +28,33 @@
         android:textColor="@color/white"
         android:textSize="50sp" />
 
+    <ImageView
+        android:id="@+id/jawabanQuizBenar"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/judul2"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:paddingRight="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gambar_ceklis" />
+
+    <ImageView
+        android:id="@+id/jawabanQuizSalah"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/judul2"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/jawabanQuizBenar"
+        android:paddingRight="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gambar_silang" />
+
     <TextView
         android:id="@+id/soal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/judul2"
+        android:layout_below="@id/jawabanQuizSalah"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/erasbold_itc"
         android:gravity="center_horizontal"
@@ -54,18 +76,6 @@
         android:paddingRight="30dp"
         android:scaleType="centerCrop"
         android:src="@drawable/fe_domba_biru" />
-
-    <Button
-        android:id="@+id/btnNext_FE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/gambarQuiz_FE"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/rounded_button"
-        android:fontFamily="@font/erasbold_itc"
-        android:padding="30dp"
-        android:text="Next"
-        android:textSize="50sp" />
 
 
     <TextView

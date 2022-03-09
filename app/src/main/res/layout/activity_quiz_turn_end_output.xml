@@ -4,48 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background2"
+    android:padding="20dp"
     tools:context=".Function.TurnEnd.QuizTurnEndOutputActivity">
 
     <TextView
         android:id="@+id/judul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
+        android:fontFamily="@font/erasbold_itc"
         android:text="TURN END"
-        android:textColor="@color/black"
-        android:textSize="50sp" />
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/judul2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/judul"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/ekspresif"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/jawabanQuizBenar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/judul2"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:paddingRight="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gambar_ceklis" />
+
+    <ImageView
+        android:id="@+id/jawabanQuizSalah"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/judul2"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/jawabanQuizBenar"
+        android:paddingRight="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gambar_silang" />
+
+    <TextView
+        android:id="@+id/soal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jawabanQuizBenar"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/erasbold_itc"
         android:gravity="center_horizontal"
-        android:text="OUTPUT"
-        android:textColor="@color/black"
-        android:textSize="50sp" />
+        android:text="Soal"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/gambarQuiz_FE"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_below="@+id/judul2"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="255dp"
+        android:layout_below="@+id/soal"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_image_button"
+        android:paddingRight="30dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/t_apel" />
 
-    <Button
-        android:id="@+id/btnNext_FE"
+    <TextView
+        android:id="@+id/watermark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/gambarQuiz_FE"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:padding="10dp"
-        android:text="Next"
-        android:textSize="30sp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

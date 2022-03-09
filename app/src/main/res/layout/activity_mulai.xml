@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background1"
+    android:padding="20dp"
     tools:context=".MulaiActivity">
 
     <TextView
@@ -12,10 +13,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Profiling Element  of Prosody In Speech Commuincation"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/judul"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/indver"
@@ -23,10 +24,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/judul"
         android:layout_marginTop="20dp"
-        android:text="Indonesian Version"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/indonesia"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 
     <TextView
@@ -35,20 +37,24 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/indver"
         android:layout_marginTop="100dp"
+        android:fontFamily="@font/erasbold_itc"
         android:text="Masukan Nama"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <EditText
-        android:textColorHint="@color/black"
-        android:textColor="@color/black"
         android:id="@+id/nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtnama"
-        android:layout_marginTop="10dp"
-        android:hint="Masukan Nama" />
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:hint="Masukan Nama"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnMulai"
@@ -56,7 +62,22 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/nama"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:text="Mulai Quiz" />
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/erasbold_itc"
+        android:padding="20dp"
+        android:text="Mulai Quiz"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </RelativeLayout>

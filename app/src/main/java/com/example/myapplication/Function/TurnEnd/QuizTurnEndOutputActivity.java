@@ -2,6 +2,7 @@ package com.example.myapplication.Function.TurnEnd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,14 +10,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.myapplication.HasilNilaiActivity;
 import com.example.myapplication.R;
 
 public class QuizTurnEndOutputActivity extends AppCompatActivity {
 
-    private ImageView gambarQuiz;
-    private Button btnNext;
+    private ImageView gambarQuiz,jawabanQuizBenar,jawabanQuizSalah;
     private int currentIndex = 0;
     private TextView soal;
+    int nilai = 0;
+    private String key = "KEY_NILAI";
 
     //soal Quiz
     private Integer[] GambarSoal = {R.drawable.d_keju, R.drawable.t_apel, R.drawable.d_jeruk, R.drawable.t_kue, R.drawable.t_madu, R.drawable.d_coklat, R.drawable.d_pisang, R.drawable.t_anggur, R.drawable.d_jagung, R.drawable.t_permen, R.drawable.t_air, R.drawable.d_keripik, R.drawable.t_telur, R.drawable.t_puding, R.drawable.d_susu, R.drawable.d_kacang};
@@ -25,7 +28,7 @@ public class QuizTurnEndOutputActivity extends AppCompatActivity {
 
     private String key_SubMenu_Soal = "SUBMENU_SOAL";
     private String terima_SubMenu_Soal;
-
+    String[] kirimJawaban;//ini
 
 
     /*
@@ -41,7 +44,8 @@ public class QuizTurnEndOutputActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_turn_end_output);
 
         gambarQuiz = findViewById(R.id.gambarQuiz_FE);
-        btnNext = findViewById(R.id.btnNext_FE);
+        jawabanQuizBenar = findViewById(R.id.jawabanQuizBenar);
+        jawabanQuizSalah = findViewById(R.id.jawabanQuizSalah);
 
         soal = findViewById(R.id.soal);
 
@@ -55,45 +59,105 @@ public class QuizTurnEndOutputActivity extends AppCompatActivity {
 
         if (SubMenu_Soal == 1) {
             gambarQuiz.setImageResource(GambarContoh[currentIndex]);
+            kirimJawaban = new String[GambarContoh.length];
         } else if (SubMenu_Soal == 2) {
             gambarQuiz.setImageResource(GambarLatihan[currentIndex]);
+            kirimJawaban = new String[GambarLatihan.length];
         } else if (SubMenu_Soal == 3) {
             gambarQuiz.setImageResource(GambarSoal[currentIndex]);
+            kirimJawaban = new String[GambarSoal.length];
         }
 
-
-        btnNext.setOnClickListener(new View.OnClickListener() {
+        jawabanQuizBenar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                kirimJawaban[currentIndex] = "benar";//ini
+                nilai++;
 
                 if (SubMenu_Soal == 1) {
                     if (currentIndex < 0) {
                         nextImageContoh();
                     } else {
-                        Toast.makeText(QuizTurnEndOutputActivity.this, "Selamat Soal Habis", Toast.LENGTH_SHORT).show();
-                        btnNext.setEnabled(false);
+                        String kirimnilai = String.valueOf(nilai);
+                        Intent intent = new Intent(QuizTurnEndOutputActivity.this, HasilNilaiActivity.class);
+                        intent.putExtra(key, kirimnilai);
+                        intent.putExtra("jawaban", kirimJawaban);
+                        startActivity(intent);
                     }
 
                 } else if (SubMenu_Soal == 2) {
                     if (currentIndex < 0) {
                         nextImageLatihan();
                     } else {
-                        Toast.makeText(QuizTurnEndOutputActivity.this, "Selamat Soal Habis", Toast.LENGTH_SHORT).show();
-                        btnNext.setEnabled(false);
+                        String kirimnilai = String.valueOf(nilai);
+                        Intent intent = new Intent(QuizTurnEndOutputActivity.this, HasilNilaiActivity.class);
+                        intent.putExtra(key, kirimnilai);
+                        intent.putExtra("jawaban", kirimJawaban);
+                        startActivity(intent);
                     }
 
                 } else if (SubMenu_Soal == 3) {
                     if (currentIndex < 15) {
                         nextImageSoal();
                     } else {
-                        Toast.makeText(QuizTurnEndOutputActivity.this, "Selamat Soal Habis", Toast.LENGTH_SHORT).show();
-                        btnNext.setEnabled(false);
+                        String kirimnilai = String.valueOf(nilai);
+                        Intent intent = new Intent(QuizTurnEndOutputActivity.this, HasilNilaiActivity.class);
+                        intent.putExtra(key, kirimnilai);
+                        intent.putExtra("jawaban", kirimJawaban);
+                        startActivity(intent);
                     }
-
                 }
+
 
             }
         });
+
+        jawabanQuizSalah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                kirimJawaban[currentIndex] = "salah";//ini
+
+                if (SubMenu_Soal == 1) {
+                    if (currentIndex < 0) {
+                        nextImageContoh();
+                    } else {
+                        String kirimnilai = String.valueOf(nilai);
+                        Intent intent = new Intent(QuizTurnEndOutputActivity.this, HasilNilaiActivity.class);
+                        intent.putExtra(key, kirimnilai);
+                        intent.putExtra("jawaban", kirimJawaban);
+                        startActivity(intent);
+                    }
+
+                } else if (SubMenu_Soal == 2) {
+                    if (currentIndex < 0) {
+                        nextImageLatihan();
+                    } else {
+                        String kirimnilai = String.valueOf(nilai);
+                        Intent intent = new Intent(QuizTurnEndOutputActivity.this, HasilNilaiActivity.class);
+                        intent.putExtra(key, kirimnilai);
+                        intent.putExtra("jawaban", kirimJawaban);
+                        startActivity(intent);
+                    }
+
+                } else if (SubMenu_Soal == 3) {
+                    if (currentIndex < 15) {
+                        nextImageSoal();
+                    } else {
+                        String kirimnilai = String.valueOf(nilai);
+                        Intent intent = new Intent(QuizTurnEndOutputActivity.this, HasilNilaiActivity.class);
+                        intent.putExtra(key, kirimnilai);
+                        intent.putExtra("jawaban", kirimJawaban);
+                        startActivity(intent);
+                    }
+                }
+
+
+            }
+        });
+
 
     }
 

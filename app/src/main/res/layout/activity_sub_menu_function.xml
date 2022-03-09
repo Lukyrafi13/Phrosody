@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background1"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".Function.SubMenu_Function">
 
     <TextView
@@ -13,16 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:fontFamily="@font/erasbold_itc"
         android:text="Function"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="80sp" />
+        android:textColor="@color/white"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_margin="150dp"
+        android:layout_margin="15dp"
         android:orientation="vertical">
 
         <Button
@@ -31,9 +32,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
-            android:padding="20dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/erasbold_itc"
+            android:padding="30dp"
             android:text="Turn End"
-            android:textSize="50sp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnAffect"
@@ -41,9 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
-            android:padding="20dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/erasbold_itc"
+            android:padding="30dp"
             android:text="Affect"
-            android:textSize="50sp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnChunking"
@@ -51,21 +56,37 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
-            android:padding="20dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/erasbold_itc"
+            android:padding="30dp"
             android:text="Chunking"
-            android:textSize="50sp" />
+            android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnFokus"
+            android:id="@+id/btnFocus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
-            android:padding="20dp"
-            android:text="Fokus"
-            android:textSize="50sp" />
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/erasbold_itc"
+            android:padding="30dp"
+            android:text="Focus"
+            android:textSize="20sp" />
 
     </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

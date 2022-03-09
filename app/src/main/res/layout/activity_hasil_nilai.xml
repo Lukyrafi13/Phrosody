@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".HasilNilaiActivity"
+    android:background="@drawable/background2"
     android:padding="20dp">
 
     <TextView
@@ -13,65 +13,110 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Profiling Element  of Prosody In Speech Commuincation"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/judul"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/indver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/judul"
-        android:layout_marginTop="20dp"
-        android:text="Indonesian Version"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/indonesia"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/txtnama"
+    <LinearLayout
+        android:id="@+id/LinearNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/indver"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:text="Nama"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp">
 
-    <TextView
-        android:id="@+id/nama"
+        <TextView
+            android:id="@+id/txtnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/erasbold_itc"
+            android:text="Nama: "
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/erasbold_itc"
+            android:text="Dimas Didan"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear_nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtnama"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LinearNama"
         android:layout_marginTop="10dp"
-        android:text="Dimas Didan"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:id="@+id/txtNilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/erasbold_itc"
+            android:text="Jumlah Benar: "
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/erasbold_itc"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Linear_nama"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp" />
+
 
     <TextView
-        android:id="@+id/txtNilai"
+        android:id="@+id/watermark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nama"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="Nilai"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/Nilai"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtNilai"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:text="100"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/erasbold_itc"
+        android:text="@string/watermark"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

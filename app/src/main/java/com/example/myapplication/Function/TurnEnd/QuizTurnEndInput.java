@@ -129,7 +129,6 @@ public class QuizTurnEndInput extends AppCompatActivity {
 
                     if (currentIndex < 0) {
                         nextImageContoh();
-
                     } else {
                         String kirimnilai = String.valueOf(nilai);
                         Intent intent = new Intent(QuizTurnEndInput.this, HasilNilaiActivity.class);
